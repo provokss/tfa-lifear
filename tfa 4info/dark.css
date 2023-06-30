@@ -1,0 +1,483 @@
+/* Styles pour la barre de navigation */
+.sub-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #2c3e50;
+  height: 80px;
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0 28px 20px rgba(0, 0, 0, 0.1);
+}
+
+.sub-navbar a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif; /* Changer la police en 'Roboto' */
+  height: 75%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, border-radius 0.3s ease, border 0.3s ease;
+}
+
+.sub-navbar img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.sub-navbar a:hover {
+  background-color: #1f587e;
+  border-radius: 30px;
+}
+  /* Styles pour afficher les articles  */
+  .article {
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+    background-color: #eb9681;
+    padding: 8px;
+    margin-top: 8px;
+    width: 200px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article img {
+    height: 120px;
+    margin-bottom: 3px;
+    background-color: #f5f5f5;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .article span {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .article p {
+    font-size: 10px;
+    margin: 3px;
+    color: #ffffff;
+  }
+  
+  /*message*/
+  .message {
+    color: #000000;
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+    background-color: #eb9681;
+    padding: 10px;
+    margin-top: 10px;
+    width: 20%;
+    border: 2px solid #000000;
+    border-radius: 15px;
+  }
+/*fin message*/
+    /* Styles pour les boutons */
+    .order-btn {
+      cursor: pointer;
+      background-color: #000000;
+      border: none;
+      color: rgb(253, 253, 253);
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+      border: 2px solid #ffffff;
+      border-radius: 50px;
+    }
+    
+    .btn-quantite {
+      background-color: #000000;
+      border: none;
+      color: white;
+      padding: 7px 12px;
+      text-align: center;
+      display: inline-block;
+      font-size: 14px;
+      margin: 3px 2px;
+      cursor: pointer;
+      border-radius: 8px;
+      border: 1px solid #ffffff;
+    }
+    
+    /* Styles pour les cadres */
+    .cadre {
+      border: 1px solid rgb(216, 211, 211);
+      background-color: #0e0130;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      border-radius: 30px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    
+    .cadre2 {
+      border: 1px solid rgb(216, 211, 211);
+      background-color: #0e0130;
+      color: rgb(216, 211, 211);
+      text-align: center;
+      border-radius: 30px;
+      margin-left: 8%;
+      margin-right: 8%;
+    }
+    
+    .cadre3 {
+      border: 1px solid rgb(216, 211, 211);
+      background-color: #0e0130;
+      color: rgb(216, 211, 211);
+      text-align: center;
+      border-radius: 30px;
+      margin-left: 6%;
+      margin-right: 6%;
+    }
+    
+    .cadre4 {
+      border: 1px solid rgb(216, 211, 211);
+      background-color: #0e0130;
+      color: rgb(216, 211, 211);
+      text-align: center;
+      border-radius: 30px;
+      margin-left: 6%;
+      margin-right: 6%;
+      padding: 10px;
+    }
+    
+/*Pour la partie voir l'utilisateur(deconnection.php)*/
+.utilisateur {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #460202;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.image-utilisateur {
+  width: 250px;
+}
+
+.image-utilisateur img {
+  border: 1px solid #000000;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.utilisateur td {
+  text-align: center;
+  padding: 6px;
+  font-size: 12px;
+}
+
+/*Pour les partie view.php*/
+.voir_article {
+  max-width: 60%; /* Limitez la largeur du tableau à 60% de la largeur de l'écran */
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 2px solid #ffffff;
+  background-color: #460202;
+  border-radius: 25px;
+}
+.image-voir_article {
+  width: 350px;
+}
+.image-voir_article img {
+  width: 100%;
+  height: auto;
+  border-radius: 35px;
+  border: 2px solid #000000;
+}
+.voir_article td {
+  text-align: center;
+  padding: 10px;
+}
+
+/*pour le popup*/
+/* Stylez et fixez le bouton sur la page */
+.commander-button-oui {
+  background-color: #70ff57;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Stylez et fixez le bouton sur la page */
+.commander-button-non {
+  background-color: #fa3c3c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* Masquez la forme Popup */
+.commander-form {
+  display: none;
+  position: fixed;
+  left: 45%;
+  top: 35%;
+  transform: translate(-45%, 5%);
+  border: 2px solid;
+  z-index: 9;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: rgb(106, 90, 154);
+  color: rgb(0, 0, 0);
+}
+/* Styles pour le conteneur de la forme */
+.commander-container {
+  max-width: 450px;
+  padding: 20px;
+}
+/* Planez les effets pour les boutons */
+.commander-container .commander-submit:hover,
+.commander-button:hover {
+  opacity: 2;
+}
+/* Couche de couleur semi-transparente pour assombrir la page */
+.commander-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.564);
+  z-index: 8;
+  display: none;
+}
+
+/*fin du popup*/
+/*2em popup*/
+.confirmation-popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.confirmation-form {
+  background-color: #281f1f;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.confirmation-button-oui, .confirmation-button-non {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.confirmation-button-oui {
+  background-color: #70ff57;
+  color: white;
+}
+
+.confirmation-button-non {
+  background-color: #fa3c3c;
+  color: white;
+}
+
+.confirmation-button-oui:hover, .confirmation-button-non:hover {
+  opacity: 0.8;
+}
+/*fin du 2em popup*/
+/*les autres*/
+ul li{
+  list-style: none;
+}
+body{
+    background-color: #363636;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+.hide {
+  display: none;
+}
+.textmessage {
+  border: 2px solid #000000;
+  width: 182px;
+  height: 191px;
+  border-radius:10px;
+}
+table{
+  border: 2px solid #000000;
+  background-color: #eb9681;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+table img{
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+/* fin les autres*/
+/* Les input */
+form input[type="number"],
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="submit"],
+input[type="file"] {
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px;
+  width: auto;
+  text-align: center;
+  border-radius: 50px;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border: 2px solid #ffffff;
+  margin-bottom: 10px; /* Ajout de la marge inférieure */
+}
+
+form input[type="submit"]:hover {
+  background-color: #003247;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+form input[type="number"]::-webkit-inner-spin-button,
+form input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+select {
+  background-color: #2b2b2b;
+  color: #8a8a8a;
+  font-size: 16px;
+  padding: 5px;
+  width: auto;
+  text-align: center;
+  border-radius: 50px;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgb(255, 255, 255);
+  margin-bottom: 10px; /* Ajout de la marge inférieure */
+}
+
+option {
+  background-color: #2b2b2b;
+  color: rgb(125, 125, 125);
+  border-radius: 50px;
+  border: 2px solid #000000;
+}
+
+input[type="file"] {
+  background-color: #2b2b2b;
+  color: #7d7d7d;
+  font-size: 16px;
+  padding: 5px;
+  width: auto;
+  text-align: center;
+  border-radius: 50px;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ffffff;
+  margin-bottom: 10px; /* Ajout de la marge inférieure */
+}
+
+label[for="image"] {
+  font-size: 16px;
+  font-weight: bold;
+  color: #7a7a7a;
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+input[type="file"]::file-selector-button {
+  /* Styles pour le bouton "Choisir un fichier" */
+  font-size: 16px;
+  background-color: #484848;
+  color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 50px;
+  border: none;
+}
+
+.mode-switcher {
+  padding: 5px 10px;
+  color: #ffffff;
+  background-color: #455768;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 2px solid #000000;
+}
+
+.mode-switcher a {
+  padding: 5px 10px;
+  color: #ffffff;
+  background-color: #2b2b2b;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 2px solid #000000;
+  transition: background-color 0.3s ease;
+}
+
+.mode-switcher a.active {
+  background-color: #035da6;
+}
+
+.mode-switcher a:not(.active):hover {
+  background-color: #003247;
+}
+
+
+.star-rating {
+  display: inline-block;
+  font-size: 0;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.star-rating > input {
+  display: none;
+}
+
+.star-rating > label {
+  display: inline-block;
+  font-size: 24px;
+  color: #bbb;
+  cursor: pointer;
+}
+
+.star-rating > input:checked ~ label,
+.star-rating > input:checked ~ label ~ label {
+  color: #f90;
+}
